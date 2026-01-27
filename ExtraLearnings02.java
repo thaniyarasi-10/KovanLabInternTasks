@@ -1,6 +1,7 @@
 import java.util.*;
 class ExtraLearnings02 {
     public static  void switchCase(Scanner sc) {
+        //old
         int day = sc.nextInt();
         String DayTime;
 
@@ -53,6 +54,16 @@ class ExtraLearnings02 {
             case 7:
                 System.out.println("May or maynot leave");
         }
+
+        //new
+        int d= 5;
+        String s= switch(d){
+            case 1 -> "mon";
+            case 2 -> "tue";
+            case 5 -> "wed";
+            default -> "wrong value";
+        };
+        System.out.println(s);
     }
 
     public static void ternary(){
@@ -88,8 +99,8 @@ class ExtraLearnings02 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //switchCase(sc);
+        switchCase(sc);
         //ternary();
-        breakContinue();
+        //breakContinue();
     }
 }
