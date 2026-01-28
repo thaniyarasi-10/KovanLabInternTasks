@@ -1,3 +1,5 @@
+package com.KovanLearnings.Java;
+
 import java.util.*;
 class ExtraLearnings02 {
     public static  void switchCase(Scanner sc) {

@@ -1,3 +1,5 @@
+package com.KovanLearnings.Java;
+
 import java.util.*;
 class ArrayMultiDimension {
     public static void matrixMultiplication(){

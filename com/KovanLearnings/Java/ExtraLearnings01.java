@@ -1,4 +1,5 @@
-import java.util.*;
+package com.KovanLearnings.Java;
+
 class ExtraLearnings01 {
     public static void NumericPromotion(){
 

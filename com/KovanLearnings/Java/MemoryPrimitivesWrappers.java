@@ -1,4 +1,6 @@
-class day01
+package com.KovanLearnings.Java;
+
+class MemoryPrimitivesWrappers
 {
 
     public static void MemoryTest(){

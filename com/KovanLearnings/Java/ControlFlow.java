@@ -1,6 +1,8 @@
+package com.KovanLearnings.Java;
+
 import java.util.Scanner;
 
-class day02{
+class ControlFlow {
     public static void diamondPrinter(Scanner sc){
 
         int n= sc.nextInt();
