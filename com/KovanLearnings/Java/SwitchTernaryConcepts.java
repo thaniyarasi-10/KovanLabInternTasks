@@ -1,7 +1,7 @@
 package com.KovanLearnings.Java;
 
 import java.util.*;
-class ExtraLearnings02 {
+class SwitchTernaryConcepts {
     public static  void switchCase(Scanner sc) {
         //old
         int day = sc.nextInt();

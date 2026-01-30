@@ -2,7 +2,7 @@ package com.KovanLearnings.Java;
 
 import java.util.*;
 
-class ExtraLearnings03 {
+class ArrayVarargsConcepts {
     public static void jaggedArray(Scanner sc) {
         int [][] arr= new int[3][];
         arr[0]= new int[2];

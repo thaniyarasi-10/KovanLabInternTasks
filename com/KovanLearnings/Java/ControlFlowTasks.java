@@ -2,7 +2,7 @@ package com.KovanLearnings.Java;
 
 import java.util.Scanner;
 
-class ControlFlow {
+class ControlFlowTasks {
     public static void diamondPrinter(Scanner sc){
 
         int n= sc.nextInt();

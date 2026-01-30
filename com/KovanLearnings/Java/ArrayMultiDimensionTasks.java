@@ -1,7 +1,7 @@
 package com.KovanLearnings.Java;
 
 import java.util.*;
-class ArrayMultiDimension {
+class ArrayMultiDimensionTasks {
     public static void matrixMultiplication(){
         int [][] arr1 = {{1,2,3},{4,5,6},{7,8,9}};
         int [][] arr2 = {{1,2,3},{4,5,6},{7,8,9}};

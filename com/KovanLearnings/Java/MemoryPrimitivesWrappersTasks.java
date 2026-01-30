@@ -1,6 +1,6 @@
 package com.KovanLearnings.Java;
 
-class MemoryPrimitivesWrappers
+class MemoryPrimitivesWrappersTasks
 {
 
     public static void MemoryTest(){

@@ -1,6 +1,6 @@
 package com.KovanLearnings.Java;
 
-class ExtraLearnings01 {
+class JavaFoundationConcepts {
     public static void NumericPromotion(){
 
         //Smaller one is automatically converted to larger one to maintain precision
