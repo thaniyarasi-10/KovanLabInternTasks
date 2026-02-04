@@ -12,6 +12,5 @@ public class ObjectCounter {
         System.out.println(ObjectCounter.counter);
         new ObjectCounter();
         System.out.println(ObjectCounter.counter);
-
     }
 }
