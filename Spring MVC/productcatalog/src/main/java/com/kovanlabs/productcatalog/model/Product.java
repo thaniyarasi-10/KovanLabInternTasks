@@ -3,15 +3,15 @@ package com.kovanlabs.productcatalog.model;
 public class Product {
     private int productId;
     private String productName;
-    private String productDescription;
+    private double productPrice;
 
     Product(){
 
     }
-    Product(int productId, String productName, String productDescription){
+    Product(int productId, String productName, double productPrice){
         this.productId = productId;
         this.productName= productName;
-        this.productDescription= productDescription;
+        this.productPrice= productPrice;
     }
 
     public int getProductId() {
@@ -30,12 +30,12 @@ public class Product {
         this.productName = productName;
     }
 
-    public String getProductDescription() {
-        return productDescription;
+    public double getProductDescription() {
+        return productPrice;
     }
 
-    public void setProductDescription(String productDescription) {
-        this.productDescription = productDescription;
+    public void setProductDescription(double productPrice) {
+        this.productPrice = productPrice;
     }
 
 }
