@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Delete Product</title>
+</head>
+
+<body>
+
+<h2>Delete Product</h2>
+
+<form th:action="@{/products/delete}" method="post">
+
+    Enter Product ID:
+    <input type="number" name="productId">
+
+    <button type="submit">Delete</button>
+
+</form>
+
+<a th:href="@{/products}">Back to List</a>
+
+</body>
+</html>

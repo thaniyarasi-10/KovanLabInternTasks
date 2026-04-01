@@ -1,0 +1,25 @@
+package com.kovanlabs.productcatalog.service;
+
+import com.kovanlabs.productcatalog.model.Product;
+import com.kovanlabs.productcatalog.repository.ProductRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+@Service
+
+public class ProductService {
+    @Autowired
+    private ProductRepository productRepository;
+    public List<Product> getAllProducts(){
+        return productRepository.findAll();
+    }
+
+    public void saveProduct(Product product){
+        productRepository.save(product);
+    }
+
+    public void deleteproduct(int productId){
+        productRepository.delete(productId);
+    }
+}
